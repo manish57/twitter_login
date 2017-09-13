@@ -14,8 +14,8 @@ var Strategy = require('passport-twitter').Strategy;
 var port = 3000;
 
 passport.use(new Strategy({
-    consumerKey: 'HUwjokBxN2pr39XzwKGJbPghm',
-    consumerSecret: 'waGVPM0HlpyTcT56JS6F4VQNULEoXEC6rLVsSGv4WwrIixoNeK',
+    consumerKey: '<client_id>',
+    consumerSecret: '<client_secret>',
     callbackURL: 'http://127.0.0.1:3000/login/twitter/return'
   },
   function(token, tokenSecret, profile, cb) {
